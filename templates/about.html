@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
  <title>My Website - About</title>
 </head>
 <body>
  <h1>Mickoy Banton</h1>
- <p>My name is Mickoy Banton. I am 22 years old and I am majoring in Computer Science. I the near future I would like to a AI engineer. </p>
+ <p>My name is Mickoy Banton. I am 22 years old and I am majoring in Computer Science. In the near future I would like to a AI engineer. </p>
+ <img src="{{ url_for('static', filename= 'sky.jpg') }}" alt="image of the sky"/>
+
 </body>
 </html>
